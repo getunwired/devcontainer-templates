@@ -29,5 +29,5 @@
 			]
 		}
 	},
-	"postCreateCommand": "sudo chmod +x .devcontainer/setup.sh && sudo ./.devcontainer/setup.sh"
+	"postCreateCommand": "sudo chmod +x .devcontainer/librenms_config.sh && sudo ./.devcontainer/librenms_config.sh"
 }
