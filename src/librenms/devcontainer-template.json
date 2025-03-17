@@ -1,0 +1,22 @@
+{
+    "id": "librenms",
+    "version": "1.0.0",
+    "name": "Librenms-dev",
+    "description": "A simple Ubuntu container with php and required packages for LibreNMS.",
+    "documentationURL": "https://github.com/getunwired/devcontainer-templates/tree/main/src/librenms",
+    "publisher": "unWired Broadband LLC",
+    "licenseURL": "https://github.com/getunwired/devcontainer-templates/blob/main/LICENSE",
+    "options": {
+        "imageVariant": {
+            "type": "string",
+            "description": "Ubuntu version for the container:",
+            "proposals": [
+                "noble",
+                "jammy",
+                "focal"
+            ],
+            "default": "jammy"
+        }
+    },
+    "platforms": ["Any"]
+}
